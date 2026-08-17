@@ -1,0 +1,172 @@
+{
+  "info": {
+    "_postman_id": "bc740d91-4e5b-43fb-a85c-49654fe4fabe",
+    "name": "ApplyHub-ERS-Project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56992290",
+    "_collection_link": "https://go.postman.co/collection/56992290-bc740d91-4e5b-43fb-a85c-49654fe4fabe?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Register-Student-API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Bhagya\",\r\n    \"lastName\": \"Lakshmi\",\r\n    \"email\": \"bhagyalakshmid622@gmail.com\",\r\n    \"phone\": \"8147141622\",\r\n    \"collegeName\": \"Government Engineering College KR Pete\",\r\n    \"branch\": \"Computer Science and Engineering\",\r\n    \"graduationYear\": 2026,\r\n    \"companyName\": \"TCS\",\r\n    \"examName\": \"System Engineer Recruitment\",\r\n    \"internshipRole\": \"Java Developer Intern\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Register-Student-API Copy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Bhagya\",\r\n    \"lastName\": \"Lakshmi\",\r\n    \"email\": \"bhagyalakshmid622@gmail.com\",\r\n    \"phone\": \"8147141622\",\r\n    \"collegeName\": \"Government Engineering College KR Pete\",\r\n    \"branch\": \"Computer Science and Engineering\",\r\n    \"graduationYear\": 2026,\r\n    \"companyName\": \"TCS\",\r\n    \"examName\": \"System Engineer Recruitment\",\r\n    \"internshipRole\": \"Java Developer Intern\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Register-Student-API Copy 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Bhagya\",\r\n    \"lastName\": \"Lakshmi\",\r\n    \"email\": \"bhagyalakshmid622@gmail.com\",\r\n    \"phone\": \"8147141622\",\r\n    \"collegeName\": \"Government Engineering College KR Pete\",\r\n    \"branch\": \"Computer Science and Engineering\",\r\n    \"graduationYear\": 2026,\r\n    \"companyName\": \"TCS\",\r\n    \"examName\": \"System Engineer Recruitment\",\r\n    \"internshipRole\": \"Java Developer Intern\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get-All-Student-API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/students",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "students"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get-BY-RegisterID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update-Student-Registration-API",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/studentsUpdate",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "studentsUpdate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete-Student-REgistration-ApI",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/applyhub/studentsDelete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "applyhub",
+            "studentsDelete"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
